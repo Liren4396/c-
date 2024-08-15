@@ -2,7 +2,7 @@
 #include <sstream>
 #include <vector>
 
-std::vector<std::string> split(std::string text, std::string delimiter) {
+std::vector<std::string> split(std::string& text, std::string& delimiter) {
     std::vector<std::string> ret;
     int curr_pos = 0;
     int n = delimiter.size();
